@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="590.144" tests="63" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="558.461" tests="63" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8281183230659497447.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1004734859692325028.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;C:\Users\slide53\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user is already on Home Page old fb" classname="Scenario: Test Sign in with Facebook" time="0.001"/>
+  <testcase name="Given user is already on Home Page old fb" classname="Scenario: Test Sign in with Facebook" time="0.002"/>
   <testcase name="Then User click on sign in with facebook button old fb" classname="Scenario: Test Sign in with Facebook" time="0"/>
   <testcase name="Then user go to free ppts page old fb" classname="Scenario: Test Sign in with Facebook" time="0"/>
   <testcase name="Then user download a free ppt old fb" classname="Scenario: Test Sign in with Facebook" time="0"/>
@@ -73,7 +73,7 @@
   <testcase name="Then user download a free ppt old gmail" classname="Scenario: Test Sign in with Google" time="0"/>
   <testcase name="Scenario: Test Sign in with Google" classname="Scenario: Test Sign in with Google" time="0"/>
   <testcase name="Given open the google plus page." classname="Scenario: Redirect to google plus page." time="0"/>
-  <testcase name="Scenario: Redirect to google plus page." classname="Scenario: Redirect to google plus page." time="0.001"/>
+  <testcase name="Scenario: Redirect to google plus page." classname="Scenario: Redirect to google plus page." time="0"/>
   <testcase name="Given user is already on Home Page new fb" classname="Scenario: Test Sign up with Facebook" time="0"/>
   <testcase name="Then User click on sign in with facebook button" classname="Scenario: Test Sign up with Facebook" time="0"/>
   <testcase name="Then user go to free ppts page new fb" classname="Scenario: Test Sign up with Facebook" time="0"/>
@@ -109,7 +109,7 @@
   <testcase name="Then user navigate to complete deck from account dashboard page" classname="Scenario: Test Sign in existing paid user" time="0"/>
   <testcase name="Then user download any product" classname="Scenario: Test Sign in existing paid user" time="0"/>
   <testcase name="Scenario: Test Sign in existing paid user" classname="Scenario: Test Sign in existing paid user" time="0"/>
-  <testcase name="Given user is already on sign up page" classname="Scenario: Test Sign up with Incorrect Data" time="0"/>
+  <testcase name="Given user is already on sign up page" classname="Scenario: Test Sign up with Incorrect Data" time="0.001"/>
   <testcase name="Then user enter incorrect data in the sign sig up form" classname="Scenario: Test Sign up with Incorrect Data" time="0"/>
   <testcase name="Then form is error message is displayed and form is not submitted" classname="Scenario: Test Sign up with Incorrect Data" time="0"/>
   <testcase name="Then enter new email to sign up" classname="Scenario: Test Sign up with Incorrect Data" time="0"/>

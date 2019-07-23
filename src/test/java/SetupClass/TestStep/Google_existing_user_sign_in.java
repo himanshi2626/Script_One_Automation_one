@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -77,7 +78,8 @@ public class Google_existing_user_sign_in extends Set {
 
 	@Then("^user go to free ppts page old gmail$")
 	public void user_go_to_free_ppts_page_old_gmail() throws InterruptedException  {
-		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("li.menu-item:nth-child(2) > a:nth-child(1)")));
+		Thread.sleep(3000);
+		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Free PPTs')]")));
 		Thread.sleep(2000);
 	    free_ppt_btn.click();
 	    Thread.sleep(2000);

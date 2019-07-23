@@ -76,8 +76,9 @@ public class Google_new_user_sign_up extends Set {
 
 	@Then("^user go to free ppts page new google$")
 	public void user_go_to_free_ppts_page_new_google() throws InterruptedException  {
-	    
-		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("li.menu-item:nth-child(2) > a:nth-child(1)")));
+		
+		Thread.sleep(3000);
+		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Free PPTs')]")));
 		Thread.sleep(2000);
 	    free_ppt_btn.click();
 	    Thread.sleep(5000);
