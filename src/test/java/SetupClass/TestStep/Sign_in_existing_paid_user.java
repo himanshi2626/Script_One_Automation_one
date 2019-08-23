@@ -14,7 +14,7 @@ import cucumber.api.java.en.Then;
 
 public class Sign_in_existing_paid_user extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 
 
 @Given("^user is already on sign in page epu$")

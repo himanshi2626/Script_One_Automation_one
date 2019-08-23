@@ -49,32 +49,32 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels: ["@NewUserlogin_with_GPlus","@Sign_Up_Correct_Data","@Sign_up_Incorrect_data"],
+        labels: ["@NewUserlogin_with_GPlus","@Sign_Up_Correct_Data","@Sign_up_Incorrect_data","@facebook_existing_user_login","@facebook_new_account_sign_in","@google_existing_user_login"],
         datasets: [
             {
                 label: 'Passed',
                 backgroundColor: "#92DD96",
-                data: [100.00, 100.00, 100.00]
+                data: [100.00, 100.00, 100.00, 100.00, 100.00, 100.00]
             },
             {
                 label: 'Failed',
                 backgroundColor: "#F2928C",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Skipped',
                 backgroundColor: "#8AF",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Pending',
                 backgroundColor: "#F5F28F",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Undefined',
                 backgroundColor: "#F5B975",
-                data: [0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>23 Jul 2019, 13:17</td>
+                        <td>23 Aug 2019, 12:36</td>
           </tr>
         </tbody>
       </table>
@@ -203,7 +203,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">5</td>
-        <td class="duration" data-value="74151217200">1m 14s 151ms</td>
+        <td class="duration" data-value="79214463900">1m 19s 214ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -218,7 +218,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">10</td>
-        <td class="duration" data-value="85545256400">1m 25s 545ms</td>
+        <td class="duration" data-value="90370563000">1m 30s 370ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -233,24 +233,69 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">13</td>
-        <td class="duration" data-value="138655404500">2m 18s 655ms</td>
+        <td class="duration" data-value="138024323500">2m 18s 024ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="facebook_existing_user_login.html">@facebook_existing_user_login</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+        <td class="duration" data-value="47046167300">47s 046ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="facebook_new_account_sign_in.html">@facebook_new_account_sign_in</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >5</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">5</td>
+        <td class="duration" data-value="86075177000">1m 26s 075ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="google_existing_user_login.html">@google_existing_user_login</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >4</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">4</td>
+        <td class="duration" data-value="58880448200">58s 880ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>3</td>
-            <td>3</td>
+      <td>6</td>
+            <td>6</td>
       <td>0</td>
-      <td>3</td>
-      <td>28</td>
-      <td>0</td>
-      <td>0</td>
+      <td>6</td>
+      <td>41</td>
       <td>0</td>
       <td>0</td>
-      <td>28</td>
-      <td class="duration">4m 58s 351ms</td>
+      <td>0</td>
+      <td>0</td>
+      <td>41</td>
+      <td class="duration">8m 19s 611ms</td>
       <td></td>
     </tr>
     <tr>

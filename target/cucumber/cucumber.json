@@ -1,9 +1,9 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "Test Sign in with Facebook",
         "description": "",
         "id": "sign-in-with-facebook;test-sign-in-with-facebook",
@@ -12,10 +12,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7287822400,
+              "duration": 6771568800,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "user is already on Home Page old fb",
             "match": {
               "location": "Facebook_existing_user_sign_in.user_is_already_on_Home_Page_old_fb()"
@@ -24,10 +24,10 @@
           },
           {
             "result": {
-              "duration": 5251407500,
+              "duration": 19859965200,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User click on sign in with facebook button old fb",
             "match": {
               "location": "Facebook_existing_user_sign_in.user_click_on_sign_in_with_facebook_button_old_fb()"
@@ -36,10 +36,10 @@
           },
           {
             "result": {
-              "duration": 2225672800,
+              "duration": 8201058800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user go to free ppts page old fb",
             "match": {
               "location": "Facebook_existing_user_sign_in.user_go_to_free_ppts_page_old_fb()"
@@ -48,10 +48,10 @@
           },
           {
             "result": {
-              "duration": 10402805900,
+              "duration": 12213574500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user download a free ppt old fb",
             "match": {
               "location": "Facebook_existing_user_sign_in.user_download_a_free_ppt_old_fb()"
@@ -65,7 +65,13 @@
     "description": "",
     "id": "sign-in-with-facebook",
     "keyword": "Feature",
-    "uri": "src/test/java/Features/1Facebook_existing_user_sign_in.feature"
+    "uri": "src/test/java/Features/1Facebook_existing_user_sign_in.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@facebook_existing_user_login"
+      }
+    ]
   },
   {
     "line": 1,
@@ -80,7 +86,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17485019800,
+              "duration": 20389612200,
               "status": "passed"
             },
             "line": 3,
@@ -100,10 +106,10 @@
     "uri": "src/test/java/Features/2facebook_logout.feature"
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "Test Sign in with Google",
         "description": "",
         "id": "sign-in-with-google;test-sign-in-with-google",
@@ -112,10 +118,10 @@
         "steps": [
           {
             "result": {
-              "duration": 22458397900,
+              "duration": 21849889200,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "user is already on Home Page old gmail",
             "match": {
               "location": "Google_existing_user_sign_in.user_is_already_on_Home_Page_old_gmail()"
@@ -124,10 +130,10 @@
           },
           {
             "result": {
-              "duration": 18695725400,
+              "duration": 18705401000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User click on sign in with google plus button old gmail",
             "match": {
               "location": "Google_existing_user_sign_in.user_click_on_sign_in_with_google_plus_button_old_gmail()"
@@ -136,10 +142,10 @@
           },
           {
             "result": {
-              "duration": 10730133900,
+              "duration": 9393610500,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user go to free ppts page old gmail",
             "match": {
               "location": "Google_existing_user_sign_in.user_go_to_free_ppts_page_old_gmail()"
@@ -148,10 +154,10 @@
           },
           {
             "result": {
-              "duration": 8796525300,
+              "duration": 8931547500,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user download a free ppt old gmail",
             "match": {
               "location": "Google_existing_user_sign_in.user_download_a_free_ppt_old_gmail()"
@@ -165,7 +171,13 @@
     "description": "",
     "id": "sign-in-with-google",
     "keyword": "Feature",
-    "uri": "src/test/java/Features/3Google_existing_user_sign_in.feature"
+    "uri": "src/test/java/Features/3Google_existing_user_sign_in.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@google_existing_user_login"
+      }
+    ]
   },
   {
     "line": 1,
@@ -180,7 +192,7 @@
         "steps": [
           {
             "result": {
-              "duration": 25942545400,
+              "duration": 26609021700,
               "status": "passed"
             },
             "line": 3,
@@ -200,10 +212,10 @@
     "uri": "src/test/java/Features/4Google_plus_user_logout.feature"
   },
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "line": 2,
+        "line": 3,
         "name": "Test Sign up with Facebook",
         "description": "",
         "id": "sign-up-with-facebook;test-sign-up-with-facebook",
@@ -212,10 +224,10 @@
         "steps": [
           {
             "result": {
-              "duration": 21320390300,
+              "duration": 21999145600,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "user is already on Home Page new fb",
             "match": {
               "location": "Facebook_new_account_sign_in.user_is_already_on_Home_Page_new_fb()"
@@ -224,10 +236,10 @@
           },
           {
             "result": {
-              "duration": 5785287800,
+              "duration": 20684332000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 6,
             "name": "User click on sign in with facebook button",
             "match": {
               "location": "Facebook_new_account_sign_in.user_click_on_sign_in_with_facebook_button()"
@@ -236,10 +248,10 @@
           },
           {
             "result": {
-              "duration": 1429816900,
+              "duration": 3716199200,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "user go to free ppts page new fb",
             "match": {
               "location": "Facebook_new_account_sign_in.user_go_to_free_ppts_page_new_fb()"
@@ -248,10 +260,10 @@
           },
           {
             "result": {
-              "duration": 7161547900,
+              "duration": 10982458100,
               "status": "passed"
             },
-            "line": 7,
+            "line": 8,
             "name": "user download a free ppt new fb",
             "match": {
               "location": "Facebook_new_account_sign_in.user_download_a_free_ppt_new_fb()"
@@ -260,10 +272,10 @@
           },
           {
             "result": {
-              "duration": 15259220100,
+              "duration": 28693042100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 9,
             "name": "user delete the fb account new fb",
             "match": {
               "location": "Facebook_new_account_sign_in.user_delete_the_fb_account_new_fb()"
@@ -277,7 +289,13 @@
     "description": "",
     "id": "sign-up-with-facebook",
     "keyword": "Feature",
-    "uri": "src/test/java/Features/5Facebook_new_account_sign_in.feature"
+    "uri": "src/test/java/Features/5Facebook_new_account_sign_in.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@facebook_new_account_sign_in"
+      }
+    ]
   },
   {
     "line": 2,
@@ -292,7 +310,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8682212100,
+              "duration": 9463710700,
               "status": "passed"
             },
             "line": 5,
@@ -304,7 +322,7 @@
           },
           {
             "result": {
-              "duration": 18805964200,
+              "duration": 18826268700,
               "status": "passed"
             },
             "line": 6,
@@ -316,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 16756659200,
+              "duration": 16075713700,
               "status": "passed"
             },
             "line": 7,
@@ -328,7 +346,7 @@
           },
           {
             "result": {
-              "duration": 10940163900,
+              "duration": 11636712900,
               "status": "passed"
             },
             "line": 8,
@@ -340,7 +358,7 @@
           },
           {
             "result": {
-              "duration": 18966217800,
+              "duration": 23212057900,
               "status": "passed"
             },
             "line": 9,
@@ -378,7 +396,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6961319700,
+              "duration": 5320342800,
               "status": "passed"
             },
             "line": 4,
@@ -390,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 274892300,
+              "duration": 185228400,
               "status": "passed"
             },
             "line": 5,
@@ -402,7 +420,7 @@
           },
           {
             "result": {
-              "duration": 2010476100,
+              "duration": 1722564700,
               "status": "passed"
             },
             "line": 6,
@@ -414,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 1824288200,
+              "duration": 1345403700,
               "status": "passed"
             },
             "line": 7,
@@ -426,7 +444,7 @@
           },
           {
             "result": {
-              "duration": 7340700600,
+              "duration": 8269753500,
               "status": "passed"
             },
             "line": 8,
@@ -458,7 +476,7 @@
         "steps": [
           {
             "result": {
-              "duration": 21109191300,
+              "duration": 22613805600,
               "status": "passed"
             },
             "line": 5,
@@ -470,7 +488,7 @@
           },
           {
             "result": {
-              "duration": 6188421600,
+              "duration": 6220889500,
               "status": "passed"
             },
             "line": 6,
@@ -482,7 +500,7 @@
           },
           {
             "result": {
-              "duration": 8213988900,
+              "duration": 8219635700,
               "status": "passed"
             },
             "line": 7,
@@ -494,7 +512,7 @@
           },
           {
             "result": {
-              "duration": 8249599500,
+              "duration": 8372731000,
               "status": "passed"
             },
             "line": 8,
@@ -506,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 2077749300,
+              "duration": 2097385200,
               "status": "passed"
             },
             "line": 9,
@@ -518,7 +536,7 @@
           },
           {
             "result": {
-              "duration": 1999738000,
+              "duration": 2000553500,
               "status": "passed"
             },
             "line": 10,
@@ -530,7 +548,7 @@
           },
           {
             "result": {
-              "duration": 7880624200,
+              "duration": 7386448800,
               "status": "passed"
             },
             "line": 11,
@@ -542,7 +560,7 @@
           },
           {
             "result": {
-              "duration": 5832538900,
+              "duration": 5154560200,
               "status": "passed"
             },
             "line": 12,
@@ -554,7 +572,7 @@
           },
           {
             "result": {
-              "duration": 11326843000,
+              "duration": 14761298400,
               "status": "passed"
             },
             "line": 13,
@@ -566,7 +584,7 @@
           },
           {
             "result": {
-              "duration": 12666561700,
+              "duration": 13543255100,
               "status": "passed"
             },
             "line": 14,
@@ -604,7 +622,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17237882300,
+              "duration": 17273371400,
               "status": "passed"
             },
             "line": 4,
@@ -616,7 +634,7 @@
           },
           {
             "result": {
-              "duration": 233346700,
+              "duration": 237258900,
               "status": "passed"
             },
             "line": 5,
@@ -628,7 +646,7 @@
           },
           {
             "result": {
-              "duration": 2922971200,
+              "duration": 2525130200,
               "status": "passed"
             },
             "line": 6,
@@ -640,7 +658,7 @@
           },
           {
             "result": {
-              "duration": 10892975900,
+              "duration": 11896517300,
               "status": "passed"
             },
             "line": 7,
@@ -652,7 +670,7 @@
           },
           {
             "result": {
-              "duration": 4080937200,
+              "duration": 4089413000,
               "status": "passed"
             },
             "line": 8,
@@ -684,7 +702,7 @@
         "steps": [
           {
             "result": {
-              "duration": 18999482800,
+              "duration": 20464885000,
               "status": "passed"
             },
             "line": 5,
@@ -696,7 +714,7 @@
           },
           {
             "result": {
-              "duration": 28734201700,
+              "duration": 28928046800,
               "status": "passed"
             },
             "line": 6,
@@ -708,7 +726,7 @@
           },
           {
             "result": {
-              "duration": 22385372700,
+              "duration": 22389304300,
               "status": "passed"
             },
             "line": 7,
@@ -720,7 +738,7 @@
           },
           {
             "result": {
-              "duration": 6307140800,
+              "duration": 6431999800,
               "status": "passed"
             },
             "line": 8,
@@ -732,7 +750,7 @@
           },
           {
             "result": {
-              "duration": 8178669500,
+              "duration": 8234483000,
               "status": "passed"
             },
             "line": 9,
@@ -744,7 +762,7 @@
           },
           {
             "result": {
-              "duration": 8275311100,
+              "duration": 8322709500,
               "status": "passed"
             },
             "line": 10,
@@ -756,7 +774,7 @@
           },
           {
             "result": {
-              "duration": 4081699300,
+              "duration": 4076975100,
               "status": "passed"
             },
             "line": 11,
@@ -768,7 +786,7 @@
           },
           {
             "result": {
-              "duration": 2001064600,
+              "duration": 2000201200,
               "status": "passed"
             },
             "line": 12,
@@ -780,7 +798,7 @@
           },
           {
             "result": {
-              "duration": 5840919700,
+              "duration": 5432354900,
               "status": "passed"
             },
             "line": 13,
@@ -792,7 +810,7 @@
           },
           {
             "result": {
-              "duration": 2999601100,
+              "duration": 2999895000,
               "status": "passed"
             },
             "line": 14,
@@ -804,7 +822,7 @@
           },
           {
             "result": {
-              "duration": 1833365100,
+              "duration": 1779511100,
               "status": "passed"
             },
             "line": 15,
@@ -816,7 +834,7 @@
           },
           {
             "result": {
-              "duration": 10106564400,
+              "duration": 9884083800,
               "status": "passed"
             },
             "line": 16,
@@ -828,7 +846,7 @@
           },
           {
             "result": {
-              "duration": 18912011700,
+              "duration": 17079874000,
               "status": "passed"
             },
             "line": 17,

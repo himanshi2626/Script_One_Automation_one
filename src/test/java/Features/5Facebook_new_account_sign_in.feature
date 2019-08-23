@@ -1,3 +1,4 @@
+@facebook_new_account_sign_in
 Feature: Sign up with Facebook
 Scenario: Test Sign up with Facebook
 

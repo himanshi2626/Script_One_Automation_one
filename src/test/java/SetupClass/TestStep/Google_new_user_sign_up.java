@@ -15,7 +15,7 @@ import cucumber.api.java.en.Then;
 
 public class Google_new_user_sign_up extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	
 	@Given("^user is already on Home Page new google$")
@@ -115,10 +115,16 @@ public class Google_new_user_sign_up extends Set {
 		 */
 		 
 	
-		 driver.findElement(By.cssSelector("ul.header > li:nth-child(1) > a:nth-child(1)")).click();
+		driver.get("https://www.slideteam.net/");
+		   Thread.sleep(3000);
+		   
+		 driver.findElement(By.xpath("//a[contains(.,'My Account')]")).click();
 		 Thread.sleep(3000);
 		 
-		
+		 
+		 driver.findElement(By.xpath("//a[contains(.,'Delete Account')]")).click();
+		 Thread.sleep(3000);
+		 
 
 
 try {
@@ -147,12 +153,11 @@ try {
 					
 				}
 
-
-
-		 WebElement delete_account = driver.findElement(By.xpath("//a[contains(text(),'Delete Account')]"));
-		 delete_account.click();
+     
 		 Thread.sleep(3000);
 		 WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"deleteaccount-form\"]/button[1]")));
+		 Thread.sleep(2000);
+
 		 continue_delete.click();
 		 Thread.sleep(3000);
 		

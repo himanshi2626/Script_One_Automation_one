@@ -13,7 +13,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class Sign_in_existing_free_user extends Set{
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on sign in page efu$")
 	public void user_is_already_on_sign_in_page_efu() throws InterruptedException  {

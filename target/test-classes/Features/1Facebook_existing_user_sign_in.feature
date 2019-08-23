@@ -1,3 +1,4 @@
+@facebook_existing_user_login
 Feature: Sign in with Facebook
 Scenario: Test Sign in with Facebook 
 

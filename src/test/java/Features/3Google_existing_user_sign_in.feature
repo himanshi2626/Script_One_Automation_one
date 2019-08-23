@@ -1,3 +1,4 @@
+@google_existing_user_login
 Feature: Sign in with Google
 Scenario: Test Sign in with Google 
 
