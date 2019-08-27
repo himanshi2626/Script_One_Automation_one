@@ -49,32 +49,32 @@ $(document).ready(function() {
   $(document).ready(function() {
 
     var chartData = {
-        labels: ["@NewUserlogin_with_GPlus","@Sign_Up_Correct_Data","@Sign_up_Incorrect_data","@facebook_existing_user_login","@facebook_new_account_sign_in","@google_existing_user_login"],
+        labels: ["@2CO_checkout","@NewUserlogin_with_GPlus","@Sign_Up_Correct_Data","@Sign_up_Incorrect_data","@facebook_existing_user_login","@facebook_new_account_sign_in","@google_existing_user_login","@paypal_checkout"],
         datasets: [
             {
                 label: 'Passed',
                 backgroundColor: "#92DD96",
-                data: [100.00, 100.00, 100.00, 100.00, 100.00, 100.00]
+                data: [100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00, 100.00]
             },
             {
                 label: 'Failed',
                 backgroundColor: "#F2928C",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Skipped',
                 backgroundColor: "#8AF",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Pending',
                 backgroundColor: "#F5F28F",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             },
             {
                 label: 'Undefined',
                 backgroundColor: "#F5B975",
-                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
+                data: [0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00]
             }
         ]
     };
@@ -135,7 +135,7 @@ $(document).ready(function() {
           <tr class="info">
             <td>Project Name</td>
                           <td>1</td>
-                        <td>23 Aug 2019, 12:36</td>
+                        <td>27 Aug 2019, 14:01</td>
           </tr>
         </tbody>
       </table>
@@ -192,6 +192,21 @@ $(document).ready(function() {
 
   <tbody>
           <tr>
+        <td class="tagname"><a href="2CO_checkout.html">@2CO_checkout</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >8</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">8</td>
+        <td class="duration" data-value="116015155000">1m 56s 015ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
         <td class="tagname"><a href="NewUserlogin_with_GPlus.html">@NewUserlogin_with_GPlus</a></td>
         
         <td  class="passed"    >1</td>
@@ -203,7 +218,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">5</td>
-        <td class="duration" data-value="79214463900">1m 19s 214ms</td>
+        <td class="duration" data-value="78783402600">1m 18s 783ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -218,7 +233,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">10</td>
-        <td class="duration" data-value="90370563000">1m 30s 370ms</td>
+        <td class="duration" data-value="91084350200">1m 31s 084ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -233,7 +248,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">13</td>
-        <td class="duration" data-value="138024323500">2m 18s 024ms</td>
+        <td class="duration" data-value="132577364200">2m 12s 577ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -248,7 +263,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">4</td>
-        <td class="duration" data-value="47046167300">47s 046ms</td>
+        <td class="duration" data-value="45026041900">45s 026ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -263,7 +278,7 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">5</td>
-        <td class="duration" data-value="86075177000">1m 26s 075ms</td>
+        <td class="duration" data-value="84399290600">1m 24s 399ms</td>
         <td class="passed">Passed</td>
       </tr>
           <tr>
@@ -278,24 +293,39 @@ $(document).ready(function() {
         <td >0</td>
         <td >0</td>
         <td class="total">4</td>
-        <td class="duration" data-value="58880448200">58s 880ms</td>
+        <td class="duration" data-value="60778890200">1m 778ms</td>
+        <td class="passed">Passed</td>
+      </tr>
+          <tr>
+        <td class="tagname"><a href="paypal_checkout.html">@paypal_checkout</a></td>
+        
+        <td  class="passed"    >1</td>
+        <td >0</td>
+        <td class="total">1</td>
+        <td      class="passed"    >8</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">8</td>
+        <td class="duration" data-value="102737925000">1m 42s 737ms</td>
         <td class="passed">Passed</td>
       </tr>
       </tbody>
 
   <tfoot class="total">
     <tr>
-      <td>6</td>
-            <td>6</td>
+      <td>8</td>
+            <td>8</td>
       <td>0</td>
-      <td>6</td>
-      <td>41</td>
-      <td>0</td>
-      <td>0</td>
+      <td>8</td>
+      <td>57</td>
       <td>0</td>
       <td>0</td>
-      <td>41</td>
-      <td class="duration">8m 19s 611ms</td>
+      <td>0</td>
+      <td>0</td>
+      <td>57</td>
+      <td class="duration">11m 51s 402ms</td>
       <td></td>
     </tr>
     <tr>

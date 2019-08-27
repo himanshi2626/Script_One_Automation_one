@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="599.474761">
-<testcase classname="Sign in with Facebook" name="Test Sign in with Facebook" time="47.046167">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="12" time="814.003705">
+<testcase classname="Sign in with Facebook" name="Test Sign in with Facebook" time="45.026042">
 <system-out><![CDATA[Given user is already on Home Page old fb...................................passed
 Then User click on sign in with facebook button old fb......................passed
 Then user go to free ppts page old fb.......................................passed
 Then user download a free ppt old fb........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Logout the appliction ." name="log out the Fb paid user account." time="20.389612">
+<testcase classname="Logout the appliction ." name="log out the Fb paid user account." time="22.305564">
 <system-out><![CDATA[Given navigate to the facebook url..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with Google" name="Test Sign in with Google" time="58.880448">
+<testcase classname="Sign in with Google" name="Test Sign in with Google" time="60.77889">
 <system-out><![CDATA[Given user is already on Home Page old gmail................................passed
 Then User click on sign in with google plus button old gmail................passed
 Then user go to free ppts page old gmail....................................passed
 Then user download a free ppt old gmail.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Clear google plus history." name="Redirect to google plus page." time="26.609022">
+<testcase classname="Clear google plus history." name="Redirect to google plus page." time="22.670651">
 <system-out><![CDATA[Given open the google plus page.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with Facebook" name="Test Sign up with Facebook" time="86.075177">
+<testcase classname="Sign up with Facebook" name="Test Sign up with Facebook" time="84.399291">
 <system-out><![CDATA[Given user is already on Home Page new fb...................................passed
 Then User click on sign in with facebook button.............................passed
 Then user go to free ppts page new fb.......................................passed
@@ -30,7 +30,7 @@ Then user download a free ppt new fb........................................pass
 Then user delete the fb account new fb......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with Google" name="Test Sign up with Google" time="79.214464">
+<testcase classname="Sign up with Google" name="Test Sign up with Google" time="78.783403">
 <system-out><![CDATA[Given user is already on Home Page new google...............................passed
 Then User click on sign in with google button...............................passed
 Then user go to free ppts page new google...................................passed
@@ -38,7 +38,7 @@ Then user download a free ppt new google....................................pass
 Then user delete the google account new google..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with existing free user" name="Test Sign in existing free user" time="16.843293">
+<testcase classname="Sign in with existing free user" name="Test Sign in existing free user" time="19.384138">
 <system-out><![CDATA[Given user is already on sign in page efu...................................passed
 Then user enter email and password efu......................................passed
 Then user click on login button efu.........................................passed
@@ -46,7 +46,7 @@ Then user go to free ppts page efu..........................................pass
 Then user download a free ppt...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with correct data" name="Test Sign up with correct Data" time="90.370563">
+<testcase classname="Sign up with correct data" name="Test Sign up with correct Data" time="91.08435">
 <system-out><![CDATA[Given user is already on sign up page cd....................................passed
 Then enter new email to sign up cd..........................................passed
 Then User enter firstname and lastname to sign up cd........................passed
@@ -59,7 +59,7 @@ Then user download a free product cd........................................pass
 Then user delete the new account created cd.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign in with existing paid user" name="Test Sign in existing paid user" time="36.021691">
+<testcase classname="Sign in with existing paid user" name="Test Sign in existing paid user" time="38.240932">
 <system-out><![CDATA[Given user is already on sign in page epu...................................passed
 Then user enter email and password epu......................................passed
 Then user click on login button epu.........................................passed
@@ -67,7 +67,18 @@ Then user navigate to complete deck from account dashboard page.............pass
 Then user download any product..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sign up with incorrect data" name="Test Sign up with Incorrect Data" time="138.024324">
+<testcase classname="2CO Checkout" name="Test 2CO checkout" time="116.015155">
+<system-out><![CDATA[Given user is already on Website Home Page 2CO..............................passed
+Then user navigates to sign up page 2CO.....................................passed
+Then user create a new ac count 2CO.........................................passed
+Then user is redirected to pricing page and choose a plan to pay 2CO........passed
+Then user is redirected to checkout page 2CO................................passed
+Then user proceed to pay with 2CO 2CO.......................................passed
+Then paypal popup appears and user navigates back to my account 2CO.........passed
+Then user deleted the account 2CO...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sign up with incorrect data" name="Test Sign up with Incorrect Data" time="132.577364">
 <system-out><![CDATA[Given user is already on sign up page.......................................passed
 Then user enter incorrect data in the sign sig up form......................passed
 Then form is error message is displayed and form is not submitted...........passed
@@ -81,6 +92,17 @@ Then user is on pricing page................................................pass
 Then user go to free ppts page..............................................passed
 Then user download a free product...........................................passed
 Then user delete the new account created....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Paypal Checkout" name="Test paypal checkout" time="102.737925">
+<system-out><![CDATA[Given user is already on Website Home Page pp...............................passed
+Then user navigates to sign up page pp......................................passed
+Then user create a new ac count pp..........................................passed
+Then user is redirected to pricing page and choose a plan to pay pp.........passed
+Then user is redirected to checkout page pp.................................passed
+Then user proceed to pay with paypal pp.....................................passed
+Then paypal popup appears and user navigates back to my account pp..........passed
+Then user deleted the account pp............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
