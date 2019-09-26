@@ -77,7 +77,8 @@ public class Facebook_existing_user_sign_in extends Set{
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("#clicking")).click();
 		Thread.sleep(3000);
-		
+			
+		driver.navigate().refresh();
 		
 		// logout
 		Thread.sleep(2000);
