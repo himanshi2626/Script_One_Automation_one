@@ -72,7 +72,7 @@ public class Facebook_existing_user_sign_in extends Set{
 	public void user_download_a_free_ppt_old_fb() throws InterruptedException  {
 	 
 		Thread.sleep(2000);
-
+		Thread.sleep(2000);
 		driver.findElement(By.cssSelector("li.product:nth-child(4) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("#clicking")).click();
@@ -80,7 +80,7 @@ public class Facebook_existing_user_sign_in extends Set{
 		
 		
 		// logout
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		try {
 			WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]"));
 			if (logout.isEnabled()) {
