@@ -6,10 +6,10 @@ import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
-import gherkin.formatter.MonochromeFormats;
+//import gherkin.formatter.MonochromeFormats;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"."},//tags= {"@paypal_checkout"},
+@CucumberOptions(features = {"."},//tags= {"@facebook_existing_user_login"},
 plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json","usage:target/usage.jsonx","junit:target/cucumber.xml"})
 
 

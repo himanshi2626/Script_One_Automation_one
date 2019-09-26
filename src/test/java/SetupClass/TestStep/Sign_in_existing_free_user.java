@@ -36,11 +36,15 @@ public class Sign_in_existing_free_user extends Set{
 	@Then("^user enter email and password efu$")
 	public void user_enter_email_and_password_efu() throws InterruptedException  {
 		
+		Thread.sleep(1000);
 		WebElement old_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
+		Thread.sleep(1000);
 	    old_email.sendKeys("himanshi@test.com");
-	    
+	    Thread.sleep(1000);
 	    WebElement old_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
+	    Thread.sleep(1000);
 	    old_pass.sendKeys("123456");
+	    Thread.sleep(1000);
 	    
 	   
 	}
@@ -49,22 +53,28 @@ public class Sign_in_existing_free_user extends Set{
 	public void user_click_on_login_button_efu() throws InterruptedException  {
 	    
 		 WebElement old_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("button.login > span:nth-child(1)")));
+		 Thread.sleep(1000);
 		    old_login_btn.click();
 	}
 
 	@Then("^user go to free ppts page efu$")
 	public void user_go_to_free_ppts_page_efu() throws InterruptedException  {
-		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("li.menu-item:nth-child(2) > a:nth-child(1)")));
+		Thread.sleep(2000);
+
+		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Free PPTs')]")));
+		Thread.sleep(2000);
+
 	    free_ppt_btn.click();
 	}
 
 	@Then("^user download a free ppt$")
 	public void user_download_a_free_ppt() throws InterruptedException  {
 	    
-		driver.findElement(By.cssSelector("li.product:nth-child(1) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
+		driver.findElement(By.cssSelector("li.item:nth-child(6) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("#clicking")).click();
 		Thread.sleep(3000);
+		
 	}
 
 }

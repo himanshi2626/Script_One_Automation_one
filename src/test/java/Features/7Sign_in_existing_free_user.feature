@@ -1,3 +1,4 @@
+@sign_in_existing_free_user
 Feature: Sign in with existing free user
 Scenario: Test Sign in existing free user
 

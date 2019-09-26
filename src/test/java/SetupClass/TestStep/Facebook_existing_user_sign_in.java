@@ -61,12 +61,11 @@ public class Facebook_existing_user_sign_in extends Set{
 	public void user_go_to_free_ppts_page_old_fb() throws InterruptedException  {
 	 
 		Thread.sleep(2000);
-
-		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("li.menu-item:nth-child(2) > a:nth-child(1)")));
+		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Free PPTs')]")));
 		Thread.sleep(2000);
-
 	    free_ppt_btn.click();
-		
+		Thread.sleep(1000);
+
 	}
 
 	@Then("^user download a free ppt old fb$")
@@ -74,10 +73,26 @@ public class Facebook_existing_user_sign_in extends Set{
 	 
 		Thread.sleep(2000);
 
-		driver.findElement(By.cssSelector("li.product:nth-child(1) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
+		driver.findElement(By.cssSelector("li.product:nth-child(4) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
 		Thread.sleep(3000);
 		driver.findElement(By.cssSelector("#clicking")).click();
 		Thread.sleep(3000);
+		
+		
+		// logout
+		Thread.sleep(1000);
+		try {
+			WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]"));
+			if (logout.isEnabled()) {
+				Thread.sleep(1000);
+				logout.click();
+				Thread.sleep(8000);
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+			}
+		} catch (NoSuchElementException Ext) {
+
+		}
 		
 	}
 

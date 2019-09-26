@@ -44,28 +44,28 @@ formatter.match({
   "location": "Facebook_existing_user_sign_in.user_is_already_on_Home_Page_old_fb()"
 });
 formatter.result({
-  "duration": 8162785000,
+  "duration": 6115217800,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_user_sign_in.user_click_on_sign_in_with_facebook_button_old_fb()"
 });
 formatter.result({
-  "duration": 18686453900,
+  "duration": 17878948700,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_user_sign_in.user_go_to_free_ppts_page_old_fb()"
 });
 formatter.result({
-  "duration": 5817760300,
+  "duration": 6999723200,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_existing_user_sign_in.user_download_a_free_ppt_old_fb()"
 });
 formatter.result({
-  "duration": 12359042700,
+  "duration": 24652447500,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/2facebook_logout.feature");
@@ -93,7 +93,7 @@ formatter.match({
   "location": "facebook_logout.navigate_to_the_facebook_url()"
 });
 formatter.result({
-  "duration": 22305563700,
+  "duration": 19242074500,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/3Google_existing_user_sign_in.feature");
@@ -142,28 +142,28 @@ formatter.match({
   "location": "Google_existing_user_sign_in.user_is_already_on_Home_Page_old_gmail()"
 });
 formatter.result({
-  "duration": 21650471800,
+  "duration": 10383020800,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_user_sign_in.user_click_on_sign_in_with_google_plus_button_old_gmail()"
 });
 formatter.result({
-  "duration": 18725299900,
+  "duration": 18755060000,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_user_sign_in.user_go_to_free_ppts_page_old_gmail()"
 });
 formatter.result({
-  "duration": 11984546000,
+  "duration": 11081548300,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_existing_user_sign_in.user_download_a_free_ppt_old_gmail()"
 });
 formatter.result({
-  "duration": 8418572500,
+  "duration": 8840707900,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/4Google_plus_user_logout.feature");
@@ -191,7 +191,7 @@ formatter.match({
   "location": "Google_plus_user_logout.open_the_google_plus_page()"
 });
 formatter.result({
-  "duration": 22670651000,
+  "duration": 25208868000,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/5Facebook_new_account_sign_in.feature");
@@ -245,35 +245,35 @@ formatter.match({
   "location": "Facebook_new_account_sign_in.user_is_already_on_Home_Page_new_fb()"
 });
 formatter.result({
-  "duration": 21238407200,
+  "duration": 20718853600,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_new_account_sign_in.user_click_on_sign_in_with_facebook_button()"
 });
 formatter.result({
-  "duration": 20477343800,
+  "duration": 20698759700,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_new_account_sign_in.user_go_to_free_ppts_page_new_fb()"
 });
 formatter.result({
-  "duration": 4004643800,
+  "duration": 3239782900,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_new_account_sign_in.user_download_a_free_ppt_new_fb()"
 });
 formatter.result({
-  "duration": 10401315500,
+  "duration": 11485213200,
   "status": "passed"
 });
 formatter.match({
   "location": "Facebook_new_account_sign_in.user_delete_the_fb_account_new_fb()"
 });
 formatter.result({
-  "duration": 28277580300,
+  "duration": 29203394800,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/6Google_new_user_sign_up.feature");
@@ -327,47 +327,53 @@ formatter.match({
   "location": "Google_new_user_sign_up.user_is_already_on_Home_Page_new_google()"
 });
 formatter.result({
-  "duration": 8218819300,
+  "duration": 9586943600,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_new_user_sign_up.user_click_on_sign_in_with_google_button()"
 });
 formatter.result({
-  "duration": 18787319500,
+  "duration": 18691483700,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_new_user_sign_up.user_go_to_free_ppts_page_new_google()"
 });
 formatter.result({
-  "duration": 16000469900,
+  "duration": 16980160000,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_new_user_sign_up.user_download_a_free_ppt_new_google()"
 });
 formatter.result({
-  "duration": 12546611500,
+  "duration": 13012748900,
   "status": "passed"
 });
 formatter.match({
   "location": "Google_new_user_sign_up.user_delete_the_fb_account_new_google()"
 });
 formatter.result({
-  "duration": 23230182400,
+  "duration": 23612949300,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/7Sign_in_existing_free_user.feature");
 formatter.feature({
-  "line": 1,
+  "line": 2,
   "name": "Sign in with existing free user",
   "description": "",
   "id": "sign-in-with-existing-free-user",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@sign_in_existing_free_user"
+    }
+  ]
 });
 formatter.scenario({
-  "line": 2,
+  "line": 3,
   "name": "Test Sign in existing free user",
   "description": "",
   "id": "sign-in-with-existing-free-user;test-sign-in-existing-free-user",
@@ -375,27 +381,27 @@ formatter.scenario({
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 4,
+  "line": 5,
   "name": "user is already on sign in page efu",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 5,
+  "line": 6,
   "name": "user enter email and password efu",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 6,
+  "line": 7,
   "name": "user click on login button efu",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
+  "line": 8,
   "name": "user go to free ppts page efu",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 9,
   "name": "user download a free ppt",
   "keyword": "Then "
 });
@@ -403,35 +409,35 @@ formatter.match({
   "location": "Sign_in_existing_free_user.user_is_already_on_sign_in_page_efu()"
 });
 formatter.result({
-  "duration": 5183527700,
+  "duration": 5489734100,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_free_user.user_enter_email_and_password_efu()"
 });
 formatter.result({
-  "duration": 202531300,
+  "duration": 5221064700,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_free_user.user_click_on_login_button_efu()"
 });
 formatter.result({
-  "duration": 1855907100,
+  "duration": 2886787600,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_free_user.user_go_to_free_ppts_page_efu()"
 });
 formatter.result({
-  "duration": 1290890300,
+  "duration": 5633655000,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_free_user.user_download_a_free_ppt()"
 });
 formatter.result({
-  "duration": 10851281900,
+  "duration": 8757668800,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/8sign_up_correct_data.feature");
@@ -510,70 +516,70 @@ formatter.match({
   "location": "sign_up_correct_data.user_is_already_on_sign_up_page_cd()"
 });
 formatter.result({
-  "duration": 23138801100,
+  "duration": 21695025300,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.enter_new_email_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 6291313800,
+  "duration": 6289608400,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_enter_firstname_and_lastname_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 8269790200,
+  "duration": 8261091800,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_enter_password_and_confirm_password_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 8408834100,
+  "duration": 8305532800,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_enter_captcha_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 2102775300,
+  "duration": 2120763200,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.check_checkbox_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 2004571300,
+  "duration": 1999801100,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_click_on_sign_up_button_to_sign_up_cd()"
 });
 formatter.result({
-  "duration": 8810376200,
+  "duration": 8150736700,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_lands_on_pricing_page_and_then_user_go_to_free_ppts_page_cd()"
 });
 formatter.result({
-  "duration": 6707041800,
+  "duration": 8339283600,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_download_a_free_product_cd()"
 });
 formatter.result({
-  "duration": 12832495100,
+  "duration": 14027544600,
   "status": "passed"
 });
 formatter.match({
   "location": "sign_up_correct_data.user_delete_the_new_account_created_cd()"
 });
 formatter.result({
-  "duration": 12518351300,
+  "duration": 13327295700,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/9Sign_in_existing_paid_user.feature");
@@ -621,35 +627,35 @@ formatter.match({
   "location": "Sign_in_existing_paid_user.user_is_already_on_sign_in_page_epu()"
 });
 formatter.result({
-  "duration": 19159990100,
+  "duration": 18465844100,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_paid_user.user_enter_email_and_password_epu()"
 });
 formatter.result({
-  "duration": 194314300,
+  "duration": 225368800,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_paid_user.user_click_on_login_button_epu()"
 });
 formatter.result({
-  "duration": 3044566200,
+  "duration": 3474283700,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_paid_user.user_navigate_to_complete_deck_from_account_dashboard_page()"
 });
 formatter.result({
-  "duration": 11758546800,
+  "duration": 11829552900,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_in_existing_paid_user.user_download_any_product()"
 });
 formatter.result({
-  "duration": 4083514100,
+  "duration": 4088422200,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/CO_checkout.feature");
@@ -724,7 +730,7 @@ formatter.match({
   "location": "co_checkout.user_is_already_on_Website_Home_Page_CO(int)"
 });
 formatter.result({
-  "duration": 16890409000,
+  "duration": 16551945400,
   "status": "passed"
 });
 formatter.match({
@@ -737,7 +743,7 @@ formatter.match({
   "location": "co_checkout.user_navigates_to_sign_up_page_CO(int)"
 });
 formatter.result({
-  "duration": 7251492700,
+  "duration": 6306962300,
   "status": "passed"
 });
 formatter.match({
@@ -750,7 +756,7 @@ formatter.match({
   "location": "co_checkout.user_create_a_new_ac_count_CO(int)"
 });
 formatter.result({
-  "duration": 35934165100,
+  "duration": 35374914200,
   "status": "passed"
 });
 formatter.match({
@@ -763,7 +769,7 @@ formatter.match({
   "location": "co_checkout.user_is_redirected_to_pricing_page_and_choose_a_plan_to_pay_CO(int)"
 });
 formatter.result({
-  "duration": 9234604300,
+  "duration": 9402813000,
   "status": "passed"
 });
 formatter.match({
@@ -776,7 +782,7 @@ formatter.match({
   "location": "co_checkout.user_is_redirected_to_checkout_page_CO(int)"
 });
 formatter.result({
-  "duration": 2006953000,
+  "duration": 1999397400,
   "status": "passed"
 });
 formatter.match({
@@ -793,7 +799,7 @@ formatter.match({
   "location": "co_checkout.user_proceed_to_pay_with_CO_CO(int,int)"
 });
 formatter.result({
-  "duration": 12263633200,
+  "duration": 12203047600,
   "status": "passed"
 });
 formatter.match({
@@ -806,7 +812,7 @@ formatter.match({
   "location": "co_checkout.paypal_popup_appears_and_user_navigates_back_to_my_account_CO(int)"
 });
 formatter.result({
-  "duration": 11736144100,
+  "duration": 10591668900,
   "status": "passed"
 });
 formatter.match({
@@ -819,7 +825,7 @@ formatter.match({
   "location": "co_checkout.user_deleted_the_account_CO(int)"
 });
 formatter.result({
-  "duration": 20697753600,
+  "duration": 21203452100,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/Sign_up_incorrect_data.feature");
@@ -913,91 +919,91 @@ formatter.match({
   "location": "Sign_up_incorrect_data.user_is_already_on_sign_up_page()"
 });
 formatter.result({
-  "duration": 15640721800,
+  "duration": 15777605700,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_enter_incorrect_data_in_the_sign_sig_up_form()"
 });
 formatter.result({
-  "duration": 28963503600,
+  "duration": 28787708700,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.form_is_error_message_is_displayed_and_form_is_not_submitted()"
 });
 formatter.result({
-  "duration": 22287652900,
+  "duration": 22344295600,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.enter_new_email_to_sign_up()"
 });
 formatter.result({
-  "duration": 6555027700,
+  "duration": 6318629300,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_enter_firstname_and_lastname_to_sign_up()"
 });
 formatter.result({
-  "duration": 8226057100,
+  "duration": 8338559800,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_enter_password_and_confirm_password_to_sign_up()"
 });
 formatter.result({
-  "duration": 8289513900,
+  "duration": 8462423500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_enter_captcha_to_sign_up()"
 });
 formatter.result({
-  "duration": 4103327900,
+  "duration": 4205408500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.check_checkbox_to_sign_up()"
 });
 formatter.result({
-  "duration": 1999924400,
+  "duration": 1999764500,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_click_on_sign_up_button_to_sign_up()"
 });
 formatter.result({
-  "duration": 5083914400,
+  "duration": 5790835100,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_is_on_pricing_page()"
 });
 formatter.result({
-  "duration": 3009638000,
+  "duration": 2999720100,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_go_to_free_ppts_page()"
 });
 formatter.result({
-  "duration": 1925671400,
+  "duration": 5595035300,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_download_a_free_product()"
 });
 formatter.result({
-  "duration": 9735316800,
+  "duration": 10396878700,
   "status": "passed"
 });
 formatter.match({
   "location": "Sign_up_incorrect_data.user_delete_the_new_account_created()"
 });
 formatter.result({
-  "duration": 16757094300,
+  "duration": 17102806200,
   "status": "passed"
 });
 formatter.uri("src/test/java/Features/paypal_checkout.feature");
@@ -1066,56 +1072,56 @@ formatter.match({
   "location": "paypal_checkout.user_is_already_on_Website_Home_Page_pp()"
 });
 formatter.result({
-  "duration": 15171135100,
+  "duration": 14811860100,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_navigates_to_sign_up_page_pp()"
 });
 formatter.result({
-  "duration": 7344306200,
+  "duration": 6408847500,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_create_a_new_ac_count_pp()"
 });
 formatter.result({
-  "duration": 34694281700,
+  "duration": 34322670000,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_is_redirected_to_pricing_page_and_choose_a_plan_to_pay_pp()"
 });
 formatter.result({
-  "duration": 9219825700,
+  "duration": 9366703700,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_is_redirected_to_checkout_page_pp()"
 });
 formatter.result({
-  "duration": 2011939800,
+  "duration": 1999852400,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_proceed_to_pay_with_paypal_pp()"
 });
 formatter.result({
-  "duration": 7203634800,
+  "duration": 7436044600,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.paypal_popup_appears_and_user_navigates_back_to_my_account_pp()"
 });
 formatter.result({
-  "duration": 11582248300,
+  "duration": 14561078500,
   "status": "passed"
 });
 formatter.match({
   "location": "paypal_checkout.user_deleted_the_account_pp()"
 });
 formatter.result({
-  "duration": 15510553400,
+  "duration": 16354706600,
   "status": "passed"
 });
 });

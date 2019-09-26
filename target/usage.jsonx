@@ -5,12 +5,12 @@
       {
         "name": "user navigate to complete deck from account dashboard page",
         "aggregatedDurations": {
-          "average": 11.7585468,
-          "median": 11.7585468
+          "average": 11.8295529,
+          "median": 11.8295529
         },
         "durations": [
           {
-            "duration": 11.7585468,
+            "duration": 11.8295529,
             "location": "src/test/java/Features/9Sign_in_existing_paid_user.feature:7"
           }
         ]
@@ -23,12 +23,12 @@
       {
         "name": "user download a free ppt new fb",
         "aggregatedDurations": {
-          "average": 10.4013155,
-          "median": 10.4013155
+          "average": 11.4852132,
+          "median": 11.4852132
         },
         "durations": [
           {
-            "duration": 10.4013155,
+            "duration": 11.4852132,
             "location": "src/test/java/Features/5Facebook_new_account_sign_in.feature:8"
           }
         ]
@@ -41,13 +41,13 @@
       {
         "name": "user click on login button efu",
         "aggregatedDurations": {
-          "average": 1.8559071,
-          "median": 1.8559071
+          "average": 2.8867876,
+          "median": 2.8867876
         },
         "durations": [
           {
-            "duration": 1.8559071,
-            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:6"
+            "duration": 2.8867876,
+            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:7"
           }
         ]
       }
@@ -59,12 +59,12 @@
       {
         "name": "user is already on sign up page cd",
         "aggregatedDurations": {
-          "average": 23.1388011,
-          "median": 23.1388011
+          "average": 21.6950253,
+          "median": 21.6950253
         },
         "durations": [
           {
-            "duration": 23.1388011,
+            "duration": 21.6950253,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:5"
           }
         ]
@@ -77,12 +77,12 @@
       {
         "name": "user navigates to sign up page 2CO",
         "aggregatedDurations": {
-          "average": 7.2514927,
-          "median": 7.2514927
+          "average": 6.3069623,
+          "median": 6.3069623
         },
         "durations": [
           {
-            "duration": 7.2514927,
+            "duration": 6.3069623,
             "location": "src/test/java/Features/CO_checkout.feature:6"
           }
         ]
@@ -95,12 +95,12 @@
       {
         "name": "enter new email to sign up",
         "aggregatedDurations": {
-          "average": 6.5550277,
-          "median": 6.5550277
+          "average": 6.3186293,
+          "median": 6.3186293
         },
         "durations": [
           {
-            "duration": 6.5550277,
+            "duration": 6.3186293,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:8"
           }
         ]
@@ -113,12 +113,12 @@
       {
         "name": "user is already on sign up page",
         "aggregatedDurations": {
-          "average": 15.6407218,
-          "median": 15.6407218
+          "average": 15.7776057,
+          "median": 15.7776057
         },
         "durations": [
           {
-            "duration": 15.6407218,
+            "duration": 15.7776057,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:5"
           }
         ]
@@ -131,12 +131,12 @@
       {
         "name": "user deleted the account pp",
         "aggregatedDurations": {
-          "average": 15.5105534,
-          "median": 15.5105534
+          "average": 16.3547066,
+          "median": 16.3547066
         },
         "durations": [
           {
-            "duration": 15.5105534,
+            "duration": 16.3547066,
             "location": "src/test/java/Features/paypal_checkout.feature:12"
           }
         ]
@@ -149,12 +149,12 @@
       {
         "name": "user delete the google account new google",
         "aggregatedDurations": {
-          "average": 23.2301824,
-          "median": 23.2301824
+          "average": 23.6129493,
+          "median": 23.6129493
         },
         "durations": [
           {
-            "duration": 23.2301824,
+            "duration": 23.6129493,
             "location": "src/test/java/Features/6Google_new_user_sign_up.feature:9"
           }
         ]
@@ -167,12 +167,12 @@
       {
         "name": "user click on login button epu",
         "aggregatedDurations": {
-          "average": 3.0445662,
-          "median": 3.0445662
+          "average": 3.4742837,
+          "median": 3.4742837
         },
         "durations": [
           {
-            "duration": 3.0445662,
+            "duration": 3.4742837,
             "location": "src/test/java/Features/9Sign_in_existing_paid_user.feature:6"
           }
         ]
@@ -185,12 +185,12 @@
       {
         "name": "user deleted the account 2CO",
         "aggregatedDurations": {
-          "average": 20.6977536,
-          "median": 20.6977536
+          "average": 21.2034521,
+          "median": 21.2034521
         },
         "durations": [
           {
-            "duration": 20.6977536,
+            "duration": 21.2034521,
             "location": "src/test/java/Features/CO_checkout.feature:12"
           }
         ]
@@ -203,12 +203,12 @@
       {
         "name": "user go to free ppts page old fb",
         "aggregatedDurations": {
-          "average": 5.8177603,
-          "median": 5.8177603
+          "average": 6.9997232,
+          "median": 6.9997232
         },
         "durations": [
           {
-            "duration": 5.8177603,
+            "duration": 6.9997232,
             "location": "src/test/java/Features/1Facebook_existing_user_sign_in.feature:7"
           }
         ]
@@ -221,13 +221,13 @@
       {
         "name": "user go to free ppts page efu",
         "aggregatedDurations": {
-          "average": 1.2908903,
-          "median": 1.2908903
+          "average": 5.633655,
+          "median": 5.633655
         },
         "durations": [
           {
-            "duration": 1.2908903,
-            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:7"
+            "duration": 5.633655,
+            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:8"
           }
         ]
       }
@@ -239,12 +239,12 @@
       {
         "name": "user is already on Home Page old fb",
         "aggregatedDurations": {
-          "average": 8.162785,
-          "median": 8.162785
+          "average": 6.1152178,
+          "median": 6.1152178
         },
         "durations": [
           {
-            "duration": 8.162785,
+            "duration": 6.1152178,
             "location": "src/test/java/Features/1Facebook_existing_user_sign_in.feature:5"
           }
         ]
@@ -257,12 +257,12 @@
       {
         "name": "user go to free ppts page",
         "aggregatedDurations": {
-          "average": 1.9256714,
-          "median": 1.9256714
+          "average": 5.5950353,
+          "median": 5.5950353
         },
         "durations": [
           {
-            "duration": 1.9256714,
+            "duration": 5.5950353,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:15"
           }
         ]
@@ -275,12 +275,12 @@
       {
         "name": "user lands on pricing page and then user go to free ppts page cd",
         "aggregatedDurations": {
-          "average": 6.7070418,
-          "median": 6.7070418
+          "average": 8.3392836,
+          "median": 8.3392836
         },
         "durations": [
           {
-            "duration": 6.7070418,
+            "duration": 8.3392836,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:12"
           }
         ]
@@ -293,12 +293,12 @@
       {
         "name": "paypal popup appears and user navigates back to my account 2CO",
         "aggregatedDurations": {
-          "average": 11.7361441,
-          "median": 11.7361441
+          "average": 10.5916689,
+          "median": 10.5916689
         },
         "durations": [
           {
-            "duration": 11.7361441,
+            "duration": 10.5916689,
             "location": "src/test/java/Features/CO_checkout.feature:11"
           }
         ]
@@ -311,12 +311,12 @@
       {
         "name": "user is on pricing page",
         "aggregatedDurations": {
-          "average": 3.009638,
-          "median": 3.009638
+          "average": 2.9997201,
+          "median": 2.9997201
         },
         "durations": [
           {
-            "duration": 3.009638,
+            "duration": 2.9997201,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:14"
           }
         ]
@@ -329,12 +329,12 @@
       {
         "name": "user click on sign up button to sign up cd",
         "aggregatedDurations": {
-          "average": 8.8103762,
-          "median": 8.8103762
+          "average": 8.1507367,
+          "median": 8.1507367
         },
         "durations": [
           {
-            "duration": 8.8103762,
+            "duration": 8.1507367,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:11"
           }
         ]
@@ -347,12 +347,12 @@
       {
         "name": "user go to free ppts page new google",
         "aggregatedDurations": {
-          "average": 16.0004699,
-          "median": 16.0004699
+          "average": 16.98016,
+          "median": 16.98016
         },
         "durations": [
           {
-            "duration": 16.0004699,
+            "duration": 16.98016,
             "location": "src/test/java/Features/6Google_new_user_sign_up.feature:7"
           }
         ]
@@ -365,13 +365,13 @@
       {
         "name": "user enter email and password efu",
         "aggregatedDurations": {
-          "average": 0.2025313,
-          "median": 0.2025313
+          "average": 5.2210647,
+          "median": 5.2210647
         },
         "durations": [
           {
-            "duration": 0.2025313,
-            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:5"
+            "duration": 5.2210647,
+            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:6"
           }
         ]
       }
@@ -383,12 +383,12 @@
       {
         "name": "check checkbox to sign up cd",
         "aggregatedDurations": {
-          "average": 2.0045713,
-          "median": 2.0045713
+          "average": 1.9998011,
+          "median": 1.9998011
         },
         "durations": [
           {
-            "duration": 2.0045713,
+            "duration": 1.9998011,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:10"
           }
         ]
@@ -401,12 +401,12 @@
       {
         "name": "user is already on Website Home Page pp",
         "aggregatedDurations": {
-          "average": 15.1711351,
-          "median": 15.1711351
+          "average": 14.8118601,
+          "median": 14.8118601
         },
         "durations": [
           {
-            "duration": 15.1711351,
+            "duration": 14.8118601,
             "location": "src/test/java/Features/paypal_checkout.feature:5"
           }
         ]
@@ -419,12 +419,12 @@
       {
         "name": "open the google plus page.",
         "aggregatedDurations": {
-          "average": 22.670651,
-          "median": 22.670651
+          "average": 25.208868,
+          "median": 25.208868
         },
         "durations": [
           {
-            "duration": 22.670651,
+            "duration": 25.208868,
             "location": "src/test/java/Features/4Google_plus_user_logout.feature:3"
           }
         ]
@@ -437,13 +437,13 @@
       {
         "name": "user is already on sign in page efu",
         "aggregatedDurations": {
-          "average": 5.1835277,
-          "median": 5.1835277
+          "average": 5.4897341,
+          "median": 5.4897341
         },
         "durations": [
           {
-            "duration": 5.1835277,
-            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:4"
+            "duration": 5.4897341,
+            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:5"
           }
         ]
       }
@@ -455,12 +455,12 @@
       {
         "name": "paypal popup appears and user navigates back to my account pp",
         "aggregatedDurations": {
-          "average": 11.5822483,
-          "median": 11.5822483
+          "average": 14.5610785,
+          "median": 14.5610785
         },
         "durations": [
           {
-            "duration": 11.5822483,
+            "duration": 14.5610785,
             "location": "src/test/java/Features/paypal_checkout.feature:11"
           }
         ]
@@ -473,12 +473,12 @@
       {
         "name": "check checkbox to sign up",
         "aggregatedDurations": {
-          "average": 1.9999244,
-          "median": 1.9999244
+          "average": 1.9997645,
+          "median": 1.9997645
         },
         "durations": [
           {
-            "duration": 1.9999244,
+            "duration": 1.9997645,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:12"
           }
         ]
@@ -491,12 +491,12 @@
       {
         "name": "User click on sign in with google button",
         "aggregatedDurations": {
-          "average": 18.7873195,
-          "median": 18.7873195
+          "average": 18.6914837,
+          "median": 18.6914837
         },
         "durations": [
           {
-            "duration": 18.7873195,
+            "duration": 18.6914837,
             "location": "src/test/java/Features/6Google_new_user_sign_up.feature:6"
           }
         ]
@@ -509,12 +509,12 @@
       {
         "name": "user is already on sign in page epu",
         "aggregatedDurations": {
-          "average": 19.1599901,
-          "median": 19.1599901
+          "average": 18.4658441,
+          "median": 18.4658441
         },
         "durations": [
           {
-            "duration": 19.1599901,
+            "duration": 18.4658441,
             "location": "src/test/java/Features/9Sign_in_existing_paid_user.feature:4"
           }
         ]
@@ -527,12 +527,12 @@
       {
         "name": "user delete the new account created",
         "aggregatedDurations": {
-          "average": 16.7570943,
-          "median": 16.7570943
+          "average": 17.1028062,
+          "median": 17.1028062
         },
         "durations": [
           {
-            "duration": 16.7570943,
+            "duration": 17.1028062,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:17"
           }
         ]
@@ -545,13 +545,13 @@
       {
         "name": "user download a free ppt",
         "aggregatedDurations": {
-          "average": 10.8512819,
-          "median": 10.8512819
+          "average": 8.7576688,
+          "median": 8.7576688
         },
         "durations": [
           {
-            "duration": 10.8512819,
-            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:8"
+            "duration": 8.7576688,
+            "location": "src/test/java/Features/7Sign_in_existing_free_user.feature:9"
           }
         ]
       }
@@ -563,12 +563,12 @@
       {
         "name": "enter new email to sign up cd",
         "aggregatedDurations": {
-          "average": 6.2913138,
-          "median": 6.2913138
+          "average": 6.2896084,
+          "median": 6.2896084
         },
         "durations": [
           {
-            "duration": 6.2913138,
+            "duration": 6.2896084,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:6"
           }
         ]
@@ -581,12 +581,12 @@
       {
         "name": "user navigates to sign up page pp",
         "aggregatedDurations": {
-          "average": 7.3443062,
-          "median": 7.3443062
+          "average": 6.4088475,
+          "median": 6.4088475
         },
         "durations": [
           {
-            "duration": 7.3443062,
+            "duration": 6.4088475,
             "location": "src/test/java/Features/paypal_checkout.feature:6"
           }
         ]
@@ -599,12 +599,12 @@
       {
         "name": "user download a free product cd",
         "aggregatedDurations": {
-          "average": 12.8324951,
-          "median": 12.8324951
+          "average": 14.0275446,
+          "median": 14.0275446
         },
         "durations": [
           {
-            "duration": 12.8324951,
+            "duration": 14.0275446,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:13"
           }
         ]
@@ -617,12 +617,12 @@
       {
         "name": "user click on sign up button to sign up",
         "aggregatedDurations": {
-          "average": 5.0839144,
-          "median": 5.0839144
+          "average": 5.7908351,
+          "median": 5.7908351
         },
         "durations": [
           {
-            "duration": 5.0839144,
+            "duration": 5.7908351,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:13"
           }
         ]
@@ -635,12 +635,12 @@
       {
         "name": "user is already on Home Page new fb",
         "aggregatedDurations": {
-          "average": 21.2384072,
-          "median": 21.2384072
+          "average": 20.7188536,
+          "median": 20.7188536
         },
         "durations": [
           {
-            "duration": 21.2384072,
+            "duration": 20.7188536,
             "location": "src/test/java/Features/5Facebook_new_account_sign_in.feature:5"
           }
         ]
@@ -653,12 +653,12 @@
       {
         "name": "User enter firstname and lastname to sign up",
         "aggregatedDurations": {
-          "average": 8.2260571,
-          "median": 8.2260571
+          "average": 8.3385598,
+          "median": 8.3385598
         },
         "durations": [
           {
-            "duration": 8.2260571,
+            "duration": 8.3385598,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:9"
           }
         ]
@@ -671,12 +671,12 @@
       {
         "name": "user enter email and password epu",
         "aggregatedDurations": {
-          "average": 0.1943143,
-          "median": 0.1943143
+          "average": 0.2253688,
+          "median": 0.2253688
         },
         "durations": [
           {
-            "duration": 0.1943143,
+            "duration": 0.2253688,
             "location": "src/test/java/Features/9Sign_in_existing_paid_user.feature:5"
           }
         ]
@@ -689,12 +689,12 @@
       {
         "name": "user is redirected to checkout page 2CO",
         "aggregatedDurations": {
-          "average": 2.006953,
-          "median": 2.006953
+          "average": 1.9993974,
+          "median": 1.9993974
         },
         "durations": [
           {
-            "duration": 2.006953,
+            "duration": 1.9993974,
             "location": "src/test/java/Features/CO_checkout.feature:9"
           }
         ]
@@ -707,12 +707,12 @@
       {
         "name": "user proceed to pay with paypal pp",
         "aggregatedDurations": {
-          "average": 7.2036348,
-          "median": 7.2036348
+          "average": 7.4360446,
+          "median": 7.4360446
         },
         "durations": [
           {
-            "duration": 7.2036348,
+            "duration": 7.4360446,
             "location": "src/test/java/Features/paypal_checkout.feature:10"
           }
         ]
@@ -725,12 +725,12 @@
       {
         "name": "user is redirected to pricing page and choose a plan to pay pp",
         "aggregatedDurations": {
-          "average": 9.2198257,
-          "median": 9.2198257
+          "average": 9.3667037,
+          "median": 9.3667037
         },
         "durations": [
           {
-            "duration": 9.2198257,
+            "duration": 9.3667037,
             "location": "src/test/java/Features/paypal_checkout.feature:8"
           }
         ]
@@ -743,12 +743,12 @@
       {
         "name": "user download any product",
         "aggregatedDurations": {
-          "average": 4.0835141,
-          "median": 4.0835141
+          "average": 4.0884222,
+          "median": 4.0884222
         },
         "durations": [
           {
-            "duration": 4.0835141,
+            "duration": 4.0884222,
             "location": "src/test/java/Features/9Sign_in_existing_paid_user.feature:8"
           }
         ]
@@ -761,12 +761,12 @@
       {
         "name": "user is redirected to pricing page and choose a plan to pay 2CO",
         "aggregatedDurations": {
-          "average": 9.2346043,
-          "median": 9.2346043
+          "average": 9.402813,
+          "median": 9.402813
         },
         "durations": [
           {
-            "duration": 9.2346043,
+            "duration": 9.402813,
             "location": "src/test/java/Features/CO_checkout.feature:8"
           }
         ]
@@ -779,12 +779,12 @@
       {
         "name": "user go to free ppts page old gmail",
         "aggregatedDurations": {
-          "average": 11.984546,
-          "median": 11.984546
+          "average": 11.0815483,
+          "median": 11.0815483
         },
         "durations": [
           {
-            "duration": 11.984546,
+            "duration": 11.0815483,
             "location": "src/test/java/Features/3Google_existing_user_sign_in.feature:7"
           }
         ]
@@ -797,12 +797,12 @@
       {
         "name": "user download a free ppt old gmail",
         "aggregatedDurations": {
-          "average": 8.4185725,
-          "median": 8.4185725
+          "average": 8.8407079,
+          "median": 8.8407079
         },
         "durations": [
           {
-            "duration": 8.4185725,
+            "duration": 8.8407079,
             "location": "src/test/java/Features/3Google_existing_user_sign_in.feature:8"
           }
         ]
@@ -815,12 +815,12 @@
       {
         "name": "user enter captcha to sign up cd",
         "aggregatedDurations": {
-          "average": 2.1027753,
-          "median": 2.1027753
+          "average": 2.1207632,
+          "median": 2.1207632
         },
         "durations": [
           {
-            "duration": 2.1027753,
+            "duration": 2.1207632,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:9"
           }
         ]
@@ -833,12 +833,12 @@
       {
         "name": "user download a free ppt new google",
         "aggregatedDurations": {
-          "average": 12.5466115,
-          "median": 12.5466115
+          "average": 13.0127489,
+          "median": 13.0127489
         },
         "durations": [
           {
-            "duration": 12.5466115,
+            "duration": 13.0127489,
             "location": "src/test/java/Features/6Google_new_user_sign_up.feature:8"
           }
         ]
@@ -851,12 +851,12 @@
       {
         "name": "User click on sign in with facebook button",
         "aggregatedDurations": {
-          "average": 20.4773438,
-          "median": 20.4773438
+          "average": 20.6987597,
+          "median": 20.6987597
         },
         "durations": [
           {
-            "duration": 20.4773438,
+            "duration": 20.6987597,
             "location": "src/test/java/Features/5Facebook_new_account_sign_in.feature:6"
           }
         ]
@@ -869,12 +869,12 @@
       {
         "name": "User enter firstname and lastname to sign up cd",
         "aggregatedDurations": {
-          "average": 8.2697902,
-          "median": 8.2697902
+          "average": 8.2610918,
+          "median": 8.2610918
         },
         "durations": [
           {
-            "duration": 8.2697902,
+            "duration": 8.2610918,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:7"
           }
         ]
@@ -887,12 +887,12 @@
       {
         "name": "user proceed to pay with 2CO 2CO",
         "aggregatedDurations": {
-          "average": 12.2636332,
-          "median": 12.2636332
+          "average": 12.2030476,
+          "median": 12.2030476
         },
         "durations": [
           {
-            "duration": 12.2636332,
+            "duration": 12.2030476,
             "location": "src/test/java/Features/CO_checkout.feature:10"
           }
         ]
@@ -905,12 +905,12 @@
       {
         "name": "user is already on Website Home Page 2CO",
         "aggregatedDurations": {
-          "average": 16.890409,
-          "median": 16.890409
+          "average": 16.5519454,
+          "median": 16.5519454
         },
         "durations": [
           {
-            "duration": 16.890409,
+            "duration": 16.5519454,
             "location": "src/test/java/Features/CO_checkout.feature:5"
           }
         ]
@@ -923,12 +923,12 @@
       {
         "name": "form is error message is displayed and form is not submitted",
         "aggregatedDurations": {
-          "average": 22.2876529,
-          "median": 22.2876529
+          "average": 22.3442956,
+          "median": 22.3442956
         },
         "durations": [
           {
-            "duration": 22.2876529,
+            "duration": 22.3442956,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:7"
           }
         ]
@@ -941,12 +941,12 @@
       {
         "name": "User click on sign in with google plus button old gmail",
         "aggregatedDurations": {
-          "average": 18.7252999,
-          "median": 18.7252999
+          "average": 18.75506,
+          "median": 18.75506
         },
         "durations": [
           {
-            "duration": 18.7252999,
+            "duration": 18.75506,
             "location": "src/test/java/Features/3Google_existing_user_sign_in.feature:6"
           }
         ]
@@ -959,12 +959,12 @@
       {
         "name": "user go to free ppts page new fb",
         "aggregatedDurations": {
-          "average": 4.0046438,
-          "median": 4.0046438
+          "average": 3.2397829,
+          "median": 3.2397829
         },
         "durations": [
           {
-            "duration": 4.0046438,
+            "duration": 3.2397829,
             "location": "src/test/java/Features/5Facebook_new_account_sign_in.feature:7"
           }
         ]
@@ -977,12 +977,12 @@
       {
         "name": "user is already on Home Page new google",
         "aggregatedDurations": {
-          "average": 8.2188193,
-          "median": 8.2188193
+          "average": 9.5869436,
+          "median": 9.5869436
         },
         "durations": [
           {
-            "duration": 8.2188193,
+            "duration": 9.5869436,
             "location": "src/test/java/Features/6Google_new_user_sign_up.feature:5"
           }
         ]
@@ -995,12 +995,12 @@
       {
         "name": "user create a new ac count 2CO",
         "aggregatedDurations": {
-          "average": 35.9341651,
-          "median": 35.9341651
+          "average": 35.3749142,
+          "median": 35.3749142
         },
         "durations": [
           {
-            "duration": 35.9341651,
+            "duration": 35.3749142,
             "location": "src/test/java/Features/CO_checkout.feature:7"
           }
         ]
@@ -1013,12 +1013,12 @@
       {
         "name": "user enter captcha to sign up",
         "aggregatedDurations": {
-          "average": 4.1033279,
-          "median": 4.1033279
+          "average": 4.2054085,
+          "median": 4.2054085
         },
         "durations": [
           {
-            "duration": 4.1033279,
+            "duration": 4.2054085,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:11"
           }
         ]
@@ -1031,12 +1031,12 @@
       {
         "name": "user create a new ac count pp",
         "aggregatedDurations": {
-          "average": 34.6942817,
-          "median": 34.6942817
+          "average": 34.32267,
+          "median": 34.32267
         },
         "durations": [
           {
-            "duration": 34.6942817,
+            "duration": 34.32267,
             "location": "src/test/java/Features/paypal_checkout.feature:7"
           }
         ]
@@ -1049,12 +1049,12 @@
       {
         "name": "user download a free ppt old fb",
         "aggregatedDurations": {
-          "average": 12.3590427,
-          "median": 12.3590427
+          "average": 24.6524475,
+          "median": 24.6524475
         },
         "durations": [
           {
-            "duration": 12.3590427,
+            "duration": 24.6524475,
             "location": "src/test/java/Features/1Facebook_existing_user_sign_in.feature:8"
           }
         ]
@@ -1067,12 +1067,12 @@
       {
         "name": "user delete the fb account new fb",
         "aggregatedDurations": {
-          "average": 28.2775803,
-          "median": 28.2775803
+          "average": 29.2033948,
+          "median": 29.2033948
         },
         "durations": [
           {
-            "duration": 28.2775803,
+            "duration": 29.2033948,
             "location": "src/test/java/Features/5Facebook_new_account_sign_in.feature:9"
           }
         ]
@@ -1085,12 +1085,12 @@
       {
         "name": "user enter password and confirm password to sign up cd",
         "aggregatedDurations": {
-          "average": 8.4088341,
-          "median": 8.4088341
+          "average": 8.3055328,
+          "median": 8.3055328
         },
         "durations": [
           {
-            "duration": 8.4088341,
+            "duration": 8.3055328,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:8"
           }
         ]
@@ -1103,12 +1103,12 @@
       {
         "name": "User click on sign in with facebook button old fb",
         "aggregatedDurations": {
-          "average": 18.6864539,
-          "median": 18.6864539
+          "average": 17.8789487,
+          "median": 17.8789487
         },
         "durations": [
           {
-            "duration": 18.6864539,
+            "duration": 17.8789487,
             "location": "src/test/java/Features/1Facebook_existing_user_sign_in.feature:6"
           }
         ]
@@ -1121,12 +1121,12 @@
       {
         "name": "user is redirected to checkout page pp",
         "aggregatedDurations": {
-          "average": 2.0119398,
-          "median": 2.0119398
+          "average": 1.9998524,
+          "median": 1.9998524
         },
         "durations": [
           {
-            "duration": 2.0119398,
+            "duration": 1.9998524,
             "location": "src/test/java/Features/paypal_checkout.feature:9"
           }
         ]
@@ -1139,12 +1139,12 @@
       {
         "name": "user enter password and confirm password to sign up",
         "aggregatedDurations": {
-          "average": 8.2895139,
-          "median": 8.2895139
+          "average": 8.4624235,
+          "median": 8.4624235
         },
         "durations": [
           {
-            "duration": 8.2895139,
+            "duration": 8.4624235,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:10"
           }
         ]
@@ -1157,12 +1157,12 @@
       {
         "name": "navigate to the facebook url.",
         "aggregatedDurations": {
-          "average": 22.3055637,
-          "median": 22.3055637
+          "average": 19.2420745,
+          "median": 19.2420745
         },
         "durations": [
           {
-            "duration": 22.3055637,
+            "duration": 19.2420745,
             "location": "src/test/java/Features/2facebook_logout.feature:3"
           }
         ]
@@ -1175,12 +1175,12 @@
       {
         "name": "user download a free product",
         "aggregatedDurations": {
-          "average": 9.7353168,
-          "median": 9.7353168
+          "average": 10.3968787,
+          "median": 10.3968787
         },
         "durations": [
           {
-            "duration": 9.7353168,
+            "duration": 10.3968787,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:16"
           }
         ]
@@ -1193,12 +1193,12 @@
       {
         "name": "user is already on Home Page old gmail",
         "aggregatedDurations": {
-          "average": 21.6504718,
-          "median": 21.6504718
+          "average": 10.3830208,
+          "median": 10.3830208
         },
         "durations": [
           {
-            "duration": 21.6504718,
+            "duration": 10.3830208,
             "location": "src/test/java/Features/3Google_existing_user_sign_in.feature:5"
           }
         ]
@@ -1211,12 +1211,12 @@
       {
         "name": "user enter incorrect data in the sign sig up form",
         "aggregatedDurations": {
-          "average": 28.9635036,
-          "median": 28.9635036
+          "average": 28.7877087,
+          "median": 28.7877087
         },
         "durations": [
           {
-            "duration": 28.9635036,
+            "duration": 28.7877087,
             "location": "src/test/java/Features/Sign_up_incorrect_data.feature:6"
           }
         ]
@@ -1229,12 +1229,12 @@
       {
         "name": "user delete the new account created cd",
         "aggregatedDurations": {
-          "average": 12.5183513,
-          "median": 12.5183513
+          "average": 13.3272957,
+          "median": 13.3272957
         },
         "durations": [
           {
-            "duration": 12.5183513,
+            "duration": 13.3272957,
             "location": "src/test/java/Features/8sign_up_correct_data.feature:14"
           }
         ]
