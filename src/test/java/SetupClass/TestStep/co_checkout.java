@@ -110,7 +110,7 @@ public class co_checkout extends Set{
 					// enter captcha
 					WebElement new_captcha_signup = wait.until(ExpectedConditions.elementToBeClickable(By.id("captcha_user_create")));
 					Thread.sleep(2000);
-				    new_captcha_signup.sendKeys("12345");
+				    new_captcha_signup.sendKeys("Aj7W2mtf9namwf55");
 					Thread.sleep(2000);
 				    
 				    // sign  up button
