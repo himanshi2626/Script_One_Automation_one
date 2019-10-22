@@ -72,7 +72,7 @@ public class Sign_up_incorrect_data extends Set{
 	    Thread.sleep(2000);
 	    WebElement new_captcha_signup = wait.until(ExpectedConditions.elementToBeClickable(By.id("captcha_user_create")));
 	    Thread.sleep(1000);
-	    new_captcha_signup.sendKeys("12345");
+	    new_captcha_signup.sendKeys("Aj7W2mtf9namwf55");
 	    Thread.sleep(2000);
 	    WebElement new_btn_signup = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".submit")));
 	    Thread.sleep(1000);
@@ -181,7 +181,7 @@ public class Sign_up_incorrect_data extends Set{
 		 
 		WebElement new_captcha_signup = wait.until(ExpectedConditions.elementToBeClickable(By.id("captcha_user_create")));
 		Thread.sleep(2000);
-	    new_captcha_signup.sendKeys("12345");
+	    new_captcha_signup.sendKeys("Aj7W2mtf9namwf55");
 	    Thread.sleep(2000);
 	}
 
